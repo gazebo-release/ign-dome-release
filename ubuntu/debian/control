@@ -45,6 +45,6 @@ Depends: libignition-cmake2-dev,
          libsdformat10-dev,
          ${misc:Depends}
 Multi-Arch: foreign
-Description: Collection of ignition robotics packages - Citadel
-  This is a metapackage used for triggering the whole collection of ignition
-  packages corresponding to the Citadel collection
+Description: Collection of Ignition packages - Dome
+  This is a metapackage used for triggering the whole collection of Ignition
+  packages corresponding to the Dome collection
