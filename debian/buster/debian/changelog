@@ -1,3 +1,9 @@
+ignition-dome (1.0.1-1~buster) buster; urgency=medium
+
+  * ignition-dome 1.0.1-1 release
+
+ -- Louise Poubel <louise@openrobotics.org>  Mon, 27 Dec 2021 16:16:06 -0800
+
 ignition-dome (1.0.0-2~buster) buster; urgency=medium
 
   * ignition-dome 1.0.0-2 release
