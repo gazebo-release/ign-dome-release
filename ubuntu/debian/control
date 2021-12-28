@@ -4,22 +4,22 @@ Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
 Section: science
 Priority: optional
 Build-Depends: debhelper (>= 11),
-	       libignition-cmake2-dev,
-  	       libignition-common3-dev,
-  	       libignition-fuel-tools5-dev,
-	       libignition-gazebo4-dev,
-	       libignition-gui4-dev,
-	       libignition-launch3-dev,
-	       libignition-math6-dev,
-	       libignition-math6-eigen3-dev,
-	       libignition-msgs6-dev,
-	       libignition-plugin-dev,
-	       libignition-physics3-dev,
-	       libignition-sensors4-dev,
-	       libignition-rendering4-dev,
-	       libignition-tools-dev,
-	       libignition-transport9-dev,
-	       libsdformat10-dev
+               libignition-cmake2-dev (>= 2.10.0),
+               libignition-common3-dev (>= 3.14.0),
+               libignition-fuel-tools5-dev (>= 5.2.0),
+               libignition-gazebo4-dev (>= 4.14.0),
+               libignition-gui4-dev (>= 4.6.0),
+               libignition-launch3-dev (>= 3.4.2),
+               libignition-math6-dev (>= 6.9.2),
+               libignition-math6-eigen3-dev (>= 6.9.2),
+               libignition-msgs6-dev (>= 6.6.1),
+               libignition-plugin-dev (>= 1.2.1),
+               libignition-physics3-dev (>= 3.4.1),
+               libignition-sensors4-dev (>= 4.3.0),
+               libignition-rendering4-dev (>= 4.9.1),
+               libignition-tools-dev (>= 1.4.1),
+               libignition-transport9-dev (>= 9.1.2),
+               libsdformat10-dev (>= 10.7.0)
 Vcs-Browser: https://bitbucket.org/ignitionrobotics/ignition-dome-release
 Vcs-Hg: https://bitbucket.org/ignitionrobotics/ignition-dome-release
 Homepage: http://ignitionrobotics.org/
@@ -27,22 +27,22 @@ Homepage: http://ignitionrobotics.org/
 Package: ignition-dome
 Architecture: any
 Section: libdevel
-Depends: libignition-cmake2-dev,
-         libignition-common3-dev,
-         libignition-fuel-tools5-dev,
-         libignition-gazebo4-dev,
-         libignition-gui4-dev,
-	 libignition-launch3-dev,
-         libignition-math6-dev,
-         libignition-math6-eigen3-dev,
-         libignition-msgs6-dev,
-         libignition-plugin-dev,
-         libignition-physics3-dev,
-         libignition-sensors4-dev,
-         libignition-rendering4-dev,
-         libignition-tools-dev,
-         libignition-transport9-dev,
-         libsdformat10-dev,
+Depends: libignition-cmake2-dev (>= 2.10.0),
+         libignition-common3-dev (>= 3.14.0),
+         libignition-fuel-tools5-dev (>= 5.2.0),
+         libignition-gazebo4-dev (>= 4.14.0),
+         libignition-gui4-dev (>= 4.6.0),
+         libignition-launch3-dev (>= 3.4.2),
+         libignition-math6-dev (>= 6.9.2),
+         libignition-math6-eigen3-dev (>= 6.9.2),
+         libignition-msgs6-dev (>= 6.6.1),
+         libignition-plugin-dev (>= 1.2.1),
+         libignition-physics3-dev (>= 3.4.1),
+         libignition-sensors4-dev (>= 4.3.0),
+         libignition-rendering4-dev (>= 4.9.1),
+         libignition-tools-dev (>= 1.4.1),
+         libignition-transport9-dev (>= 9.1.2),
+         libsdformat10-dev (>= 10.7.0)
          ${misc:Depends}
 Multi-Arch: foreign
 Description: Collection of Ignition packages - Dome
